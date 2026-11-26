@@ -1,106 +1,55 @@
+<!-- ETHICAL / ORIGIN — profile README -->
 <div align="center">
 
-# ⚡ TAHER SAIFEE
-
-### `Developer • AI Explorer • Creative Builder`
-
-<br>
-
-**Building ideas. Breaking things. Learning how they work.**
-
-<br>
-
-[![GitHub](https://img.shields.io/badge/GitHub-EthicalMaster-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EthicalMaster)
+<img src="assets/origin-header.svg" alt="Taher Saifee — Software, AI and Data Science. Design. Build. Explore." width="100%">
 
 </div>
 
----
+## 01 — About
 
-## 🧠 ABOUT ME
+I'm a student developer exploring software engineering, artificial intelligence and data science. I enjoy building useful applications, understanding the systems behind them, and experimenting with creative web experiences.
 
-Hey, I'm **Taher Saifee**.
+My interests span AI agents, scientific computing, backend development and motion design.
 
-I'm a developer and creative who enjoys turning ideas into
-actual projects — from **AI and software** to **games and art**.
-
-I enjoy experimenting, learning by building, and figuring out
-how things work under the hood.
-
-> **I don't just want to learn how things work.  
-> I want to build them.**
-
----
-
-## ⚡ WHAT I'M INTO
+## 02 — Selected work
 
 <div align="center">
-
-| 🤖 AI & ML | 💻 DEVELOPMENT | 🎮 GAME DEV | 🎨 ART |
-|:---:|:---:|:---:|:---:|
-| Machine Learning | Software | Game Mechanics | Anime |
-| Computer Vision | Python | Game Systems | Sketching |
-| Object Detection | SQL | AI-assisted Dev | Creativity |
-
+<a href="https://github.com/EthicalMaster/AXIOM-LAB"><img src="assets/project-axiom.svg" width="48%" alt="AXIOM LAB — Scientific computing"></a>
+<a href="https://github.com/EthicalMaster/Aven-studypartner"><img src="assets/project-aven.svg" width="48%" alt="AVEN — AI study partner"></a>
+<a href="https://github.com/EthicalMaster/google-adk-workshop-agents"><img src="assets/project-agent.svg" width="48%" alt="AGENT STUDIO — Multi-agent experiments"></a>
+<a href="https://github.com/EthicalMaster/Myportfolio"><img src="assets/project-portfolio.svg" width="48%" alt="PORTFOLIO — Creative web development"></a>
 </div>
 
----
+| Project | What I'm exploring |
+| :--- | :--- |
+| [AXIOM LAB](https://github.com/EthicalMaster/AXIOM-LAB) | A local-first scientific computing environment; data exploration and reproducible analysis. In development. |
+| [AVEN StudyPartner](https://github.com/EthicalMaster/Aven-studypartner) | AI-assisted learning workflows and study resources. |
+| [Agent Studio](https://github.com/EthicalMaster/google-adk-workshop-agents) | Tool-using agents and multi-agent planning, parallel execution and review with Google ADK. |
+| [Interactive portfolio](https://github.com/EthicalMaster/Myportfolio) | Creative coding, reactive particles, accessible interactions and motion. |
 
-## 🛠️ TECHNOLOGIES
+## 03 — Toolkit
+
+| Area | Technologies I work with or explore |
+| :--- | :--- |
+| Languages | Python · JavaScript · TypeScript · SQL · C++ · Java |
+| Application development | FastAPI · React · HTML · CSS |
+| AI & data | Google ADK · LLM APIs · OpenCV · Data analysis |
+| Engineering | Git · GitHub · Docker · Testing |
+
+## 04 — How I build
+
+<img src="assets/build-loop.svg" alt="Explore, design, build, verify — repeat." width="100%">
+
+I value understanding why something works, not just getting it to work. I am learning to document decisions, test assumptions and improve projects incrementally.
+
+## 05 — Activity
+
+[Explore my public repositories →](https://github.com/EthicalMaster?tab=repositories)
+
+<!-- The native GitHub contribution graph below this README is the source of truth. -->
+
+---
 
 <div align="center">
-
-### Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### Tools & Technologies
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
+<sub>ETHICALMASTER / ALWAYS EXPLORING</sub>
 </div>
-
----
-
-## 🚀 WHAT I'M BUILDING
-
-```text
-┌──────────────────────────────────────────────────────┐
-│                                                      │
-│   🤖  AI & COMPUTER VISION                          │
-│       Exploring intelligent systems, object         │
-│       detection and computer vision.                │
-│                                                      │
-│   🎮  GAME DEVELOPMENT                               │
-│       Experimenting with gameplay, mechanics        │
-│       and AI-assisted development.                  │
-│                                                      │
-│   💻  SOFTWARE PROJECTS                              │
-│       Turning ideas into practical applications     │
-│       and learning through real projects.           │
-│                                                      │
-│   🎨  CREATIVE PROJECTS                              │
-│       Exploring anime art, sketching and            │
-│       creativity beyond code.                       │
-│                                                      │
-└──────────────────────────────────────────────────────┘
-
----
-
-## 🧩 CURRENTLY EXPLORING
-
-```text
-AI / Machine Learning     ███████████████░░░
-Computer Vision           █████████████░░░░░
-Software Development      ███████████████░░░
-Game Development          ███████████░░░░░░░
-Creative Coding           ██████████░░░░░░░░
-<!---
-EthicalMaster/EthicalMaster is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
