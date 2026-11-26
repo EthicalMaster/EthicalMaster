@@ -1,55 +1,75 @@
-<!-- ETHICAL / ORIGIN — profile README -->
+<!-- ETHICALMASTER / BEYOND THE CODE / PARADOX -->
 <div align="center">
-
-<img src="assets/origin-header.svg" alt="Taher Saifee — Software, AI and Data Science. Design. Build. Explore." width="100%">
-
+  <a href="https://github.com/EthicalMaster"><img src="assets/paradox.gif" alt="Beyond the Code — Taher Saifee. Software, AI and Data Science. An animated liquid-chrome knot." width="100%"></a>
 </div>
 
-## 01 — About
+<sub>01 / THE INDIVIDUAL</sub>
 
-I'm a student developer exploring software engineering, artificial intelligence and data science. I enjoy building useful applications, understanding the systems behind them, and experimenting with creative web experiences.
+## Curiosity into creation.
 
-My interests span AI agents, scientific computing, backend development and motion design.
+I'm a student developer working at the intersection of software engineering, artificial intelligence and data science. I enjoy building useful applications, understanding how their systems work, and exploring the creative side of technology.
 
-## 02 — Selected work
+[Portfolio source](https://github.com/EthicalMaster/Myportfolio) &nbsp; / &nbsp; [Repositories](https://github.com/EthicalMaster?tab=repositories)
+
+---
+
+<sub>02 / SELECTED WORKS</sub>
+
+## Ideas made tangible.
 
 <div align="center">
-<a href="https://github.com/EthicalMaster/AXIOM-LAB"><img src="assets/project-axiom.svg" width="48%" alt="AXIOM LAB — Scientific computing"></a>
-<a href="https://github.com/EthicalMaster/Aven-studypartner"><img src="assets/project-aven.svg" width="48%" alt="AVEN — AI study partner"></a>
-<a href="https://github.com/EthicalMaster/google-adk-workshop-agents"><img src="assets/project-agent.svg" width="48%" alt="AGENT STUDIO — Multi-agent experiments"></a>
-<a href="https://github.com/EthicalMaster/Myportfolio"><img src="assets/project-portfolio.svg" width="48%" alt="PORTFOLIO — Creative web development"></a>
+<a href="https://github.com/EthicalMaster/AXIOM-LAB"><img src="assets/axiom.gif" width="48%" alt="AXIOM LAB — animated mathematical wave"></a>
+<a href="https://github.com/EthicalMaster/Aven-studypartner"><img src="assets/aven.gif" width="48%" alt="AVEN — animated metallic intelligence sculpture"></a>
+<a href="https://github.com/EthicalMaster/google-adk-workshop-agents"><img src="assets/agent.gif" width="48%" alt="Agent Studio — animated agent network"></a>
+<a href="https://github.com/EthicalMaster/Myportfolio"><img src="assets/portfolio.gif" width="48%" alt="Portfolio — animated titanium ribbon"></a>
 </div>
 
-| Project | What I'm exploring |
-| :--- | :--- |
-| [AXIOM LAB](https://github.com/EthicalMaster/AXIOM-LAB) | A local-first scientific computing environment; data exploration and reproducible analysis. In development. |
-| [AVEN StudyPartner](https://github.com/EthicalMaster/Aven-studypartner) | AI-assisted learning workflows and study resources. |
-| [Agent Studio](https://github.com/EthicalMaster/google-adk-workshop-agents) | Tool-using agents and multi-agent planning, parallel execution and review with Google ADK. |
-| [Interactive portfolio](https://github.com/EthicalMaster/Myportfolio) | Creative coding, reactive particles, accessible interactions and motion. |
+**[01 / AXIOM LAB](https://github.com/EthicalMaster/AXIOM-LAB)** — A local-first scientific computing environment for data exploration and reproducible analysis. In development.
 
-## 03 — Toolkit
+**[02 / AVEN StudyPartner](https://github.com/EthicalMaster/Aven-studypartner)** — AI-assisted study resources and learning workflows.
 
-| Area | Technologies I work with or explore |
+**[03 / Agent Studio](https://github.com/EthicalMaster/google-adk-workshop-agents)** — Google ADK experiments in tool use, multi-agent planning, parallel execution and review.
+
+**[04 / Interactive portfolio](https://github.com/EthicalMaster/Myportfolio)** — Reactive particle art, creative coding and accessible motion design.
+
+---
+
+<sub>03 / INSTRUMENTS OF CREATION</sub>
+
+## Technology as a medium.
+
+| Discipline | Instruments |
 | :--- | :--- |
 | Languages | Python · JavaScript · TypeScript · SQL · C++ · Java |
-| Application development | FastAPI · React · HTML · CSS |
-| AI & data | Google ADK · LLM APIs · OpenCV · Data analysis |
+| Software | FastAPI · React · HTML · CSS |
+| Intelligence & data | Google ADK · LLM APIs · OpenCV · Data analysis |
 | Engineering | Git · GitHub · Docker · Testing |
 
-## 04 — How I build
+---
 
-<img src="assets/build-loop.svg" alt="Explore, design, build, verify — repeat." width="100%">
+<sub>04 / CONTINUOUS EVOLUTION</sub>
 
-I value understanding why something works, not just getting it to work. I am learning to document decisions, test assumptions and improve projects incrementally.
+## Always in the making.
 
-## 05 — Activity
+Explore. Design. Build. Verify. Repeat.
 
-[Explore my public repositories →](https://github.com/EthicalMaster?tab=repositories)
+I value learning why things work, not just making them work. My projects are a record of that process — experiments, decisions, and incremental improvements.
 
-<!-- The native GitHub contribution graph below this README is the source of truth. -->
+[Explore my public repositories ↗](https://github.com/EthicalMaster?tab=repositories) · [View GitHub activity ↗](https://github.com/EthicalMaster#js-contribution-activity)
+
+<!-- Optional: enable the contribution workflow described in APPLY.md to insert a monochrome chart based on GitHub API data. Native GitHub activity remains authoritative. -->
+
+<details>
+<summary>Artwork credits & static viewing</summary>
+
+PARADOX and the four project studies are original procedural graphics created for this profile, not project screenshots or measurements. The animations are stored in this repository.
+
+[Static hero](assets/paradox.png) · [AXIOM](assets/axiom.png) · [AVEN](assets/aven.png) · [Agent Studio](assets/agent.png) · [Portfolio](assets/portfolio.png)
+
+</details>
 
 ---
 
 <div align="center">
-<sub>ETHICALMASTER / ALWAYS EXPLORING</sub>
+<sub>ETHICALMASTER / BEYOND THE CODE / PARADOX</sub>
 </div>
