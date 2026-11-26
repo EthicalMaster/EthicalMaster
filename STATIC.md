@@ -1,4 +1,4 @@
-<!-- ETHICALMASTER / PARADOX III — BEYOND THE CODE -->
+<!-- ETHICALMASTER / PARADOX 3.1 — BEYOND THE CODE -->
 <div align="center">
 <a href="https://github.com/EthicalMaster"><img src="assets/paradox.png" alt="Beyond the Code — Taher Saifee. Software, AI and Data Science. Liquid-chrome knot." width="100%"></a>
 </div>

@@ -5,7 +5,7 @@ from PIL import Image,ImageDraw,ImageFont
 from numba import njit
 A=Path(__file__).resolve().parents[1]/'assets'; A.mkdir(exist_ok=True)
 F=Path(os.getenv('PARADOX_FONT_DIR','/usr/share/fonts/opentype/inter'))
-def font(s,b=False):return ImageFont.truetype(str(F/('InterDisplay-Black.otf' if b else 'InterDisplay-Regular.otf')),s)
+def font(s,b=False):return ImageFont.truetype(str(F/('InterDisplay-SemiBold.otf' if b else 'InterDisplay-Regular.otf')),s)
 def mono(s):return ImageFont.truetype(os.getenv('PARADOX_MONO_FONT','/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf'),s)
 def unit(v):return v/np.maximum(1e-9,np.linalg.norm(v,axis=-1,keepdims=True))
 @njit(cache=True)
@@ -45,9 +45,9 @@ def bg(w,h,x,y):
  yy,xx=np.mgrid[:h,:w];g=(10+20*np.exp(-((xx-x)/(w*.37))**2-((yy-y)/(h*.46))**2)).astype('uint8');return Image.fromarray(np.stack([g]*3,-1),'RGB')
 def hero(t):
  im=bg(900,430,667,211);d=ImageDraw.Draw(im);d.line((35,51,865,51),fill=(61,61,61));d.line((35,379,865,379),fill=(61,61,61))
- d.text((36,23),'E T H I C A L M A S T E R',font=mono(12),fill='#bcbcbc');d.text((864,23),'INDEPENDENT DEVELOPER / 01',font=mono(12),fill='#bcbcbc',anchor='ra')
- d.text((32,85),'BEYOND',font=font(95,True),fill='#efefef');d.text((29,174),'THE CODE.',font=font(95,True),fill='#efefef')
- art=sculpture(t,'knot',900,660).resize((450,330),Image.Resampling.LANCZOS);im.paste(art,(444,55),art);d=ImageDraw.Draw(im);d.text((39,304),'T A H E R  S A I F E E',font=font(19,True),fill='#e9e9e9');d.text((39,337),'Software / AI / Data Science',font=font(17),fill='#a9a9a9');d.text((36,399),'FIG. 01 / PARADOX',font=mono(11),fill='#b4b4b4');d.text((865,399),'FORM / FUNCTION / CURIOSITY',font=mono(11),fill='#b4b4b4',anchor='ra');return im
+ d.text((36,23),'ETHICALMASTER',font=mono(12),fill='#bcbcbc');d.text((864,23),'INDEPENDENT DEVELOPER',font=mono(12),fill='#bcbcbc',anchor='ra')
+ d.text((44,104),'BEYOND',font=font(65,True),fill='#efefef');d.text((44,175),'THE CODE.',font=font(65,True),fill='#efefef')
+ art=sculpture(t,'knot',900,660).resize((410,330),Image.Resampling.LANCZOS);im.paste(art,(466,55),art);d=ImageDraw.Draw(im);d.text((46,292),'Taher Saifee',font=font(23,True),fill='#e9e9e9');d.text((46,324),'Software / AI / Data Science',font=font(17),fill='#a9a9a9');d.text((36,399),'FIG. 01 / PARADOX',font=mono(11),fill='#b4b4b4');d.text((865,399),'FORM / FUNCTION / CURIOSITY',font=mono(11),fill='#b4b4b4',anchor='ra');return im
 
 def project(t,i):
  im=bg(420,232,210,85);d=ImageDraw.Draw(im)
@@ -61,7 +61,7 @@ def project(t,i):
   for x,y in pos:d.ellipse((x-9,y-9,x+9,y+9),fill='#212121',outline='#bdbdbd',width=2);d.ellipse((x-2,y-2,x+2,y+2),fill='#eeeeee')
  else:
   art=sculpture(t,'aven' if i==1 else 'ribbon',260,150);im.paste(art,(80,9),art)
- d=ImageDraw.Draw(im);d.line((18,164,402,164),fill=(65,65,65));d.text((18,174),['AXIOM LAB','AVEN','AGENT STUDIO','PORTFOLIO'][i],font=font(22,True),fill='#efefef');d.text((18,204),['Scientific computing','Applied intelligence','Agent orchestration','Creative engineering'][i],font=font(13),fill='#b3b3b3');d.text((402,15),f'0{i+1} / STUDY',font=mono(10),fill='#bcbcbc',anchor='ra');d.text((402,184),'↗',font=font(19),fill='#c0c0c0',anchor='ra');return im
+ d=ImageDraw.Draw(im);d.line((18,164,402,164),fill=(65,65,65));d.text((18,174),['AXIOM Lab','AVEN','Agent Studio','Portfolio'][i],font=font(21,True),fill='#efefef');d.text((18,204),['Scientific computing','Applied intelligence','Agent orchestration','Creative engineering'][i],font=font(15),fill='#b3b3b3');d.text((402,15),f'0{i+1} / STUDY',font=mono(10),fill='#bcbcbc',anchor='ra');d.text((402,184),'↗',font=font(19),fill='#c0c0c0',anchor='ra');return im
 
 def export(name,fn,count):
  frames=[fn(2*np.pi*i/count) for i in range(count)];frames[0].save(A/(name+'.png'),optimize=True);pal=Image.new('P',(1,1));pal.putpalette([v for i in range(256) for v in (i,i,i)]);frames=[im.quantize(palette=pal,dither=Image.Dither.NONE) for im in frames];frames[0].save(A/(name+'.gif'),save_all=True,append_images=frames[1:],duration=125,loop=0,optimize=True,disposal=1);print(name,(A/(name+'.gif')).stat().st_size,flush=True)
