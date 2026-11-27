@@ -1,55 +1,89 @@
-<!-- ETHICAL / ORIGIN — profile README -->
 <div align="center">
 
-<img src="assets/origin-header.svg" alt="Taher Saifee — Software, AI and Data Science. Design. Build. Explore." width="100%">
+<img src="docs/readme-assets/banner.svg" width="100%" alt="ETHICAL / PARADOX — Software · AI · Data Science">
+
+# ETHICAL / PARADOX
+
+**Software · AI · Data Science**
+
+![Status](https://img.shields.io/badge/status-Developer%20profile-a8b5e1?style=flat-square) [![Last commit](https://img.shields.io/github/last-commit/EthicalMaster/EthicalMaster?style=flat-square)](https://github.com/EthicalMaster/EthicalMaster/commits/main)
+
+Python · TypeScript · SQL · FastAPI · React · Git
 
 </div>
-
-## 01 — About
-
-I'm a student developer exploring software engineering, artificial intelligence and data science. I enjoy building useful applications, understanding the systems behind them, and experimenting with creative web experiences.
-
-My interests span AI agents, scientific computing, backend development and motion design.
-
-## 02 — Selected work
-
-<div align="center">
-<a href="https://github.com/EthicalMaster/AXIOM-LAB"><img src="assets/project-axiom.svg" width="48%" alt="AXIOM LAB — Scientific computing"></a>
-<a href="https://github.com/EthicalMaster/Aven-studypartner"><img src="assets/project-aven.svg" width="48%" alt="AVEN — AI study partner"></a>
-<a href="https://github.com/EthicalMaster/google-adk-workshop-agents"><img src="assets/project-agent.svg" width="48%" alt="AGENT STUDIO — Multi-agent experiments"></a>
-<a href="https://github.com/EthicalMaster/Myportfolio"><img src="assets/project-portfolio.svg" width="48%" alt="PORTFOLIO — Creative web development"></a>
-</div>
-
-| Project | What I'm exploring |
-| :--- | :--- |
-| [AXIOM LAB](https://github.com/EthicalMaster/AXIOM-LAB) | A local-first scientific computing environment; data exploration and reproducible analysis. In development. |
-| [AVEN StudyPartner](https://github.com/EthicalMaster/Aven-studypartner) | AI-assisted learning workflows and study resources. |
-| [Agent Studio](https://github.com/EthicalMaster/google-adk-workshop-agents) | Tool-using agents and multi-agent planning, parallel execution and review with Google ADK. |
-| [Interactive portfolio](https://github.com/EthicalMaster/Myportfolio) | Creative coding, reactive particles, accessible interactions and motion. |
-
-## 03 — Toolkit
-
-| Area | Technologies I work with or explore |
-| :--- | :--- |
-| Languages | Python · JavaScript · TypeScript · SQL · C++ · Java |
-| Application development | FastAPI · React · HTML · CSS |
-| AI & data | Google ADK · LLM APIs · OpenCV · Data analysis |
-| Engineering | Git · GitHub · Docker · Testing |
-
-## 04 — How I build
-
-<img src="assets/build-loop.svg" alt="Explore, design, build, verify — repeat." width="100%">
-
-I value understanding why something works, not just getting it to work. I am learning to document decisions, test assumptions and improve projects incrementally.
-
-## 05 — Activity
-
-[Explore my public repositories →](https://github.com/EthicalMaster?tab=repositories)
-
-<!-- The native GitHub contribution graph below this README is the source of truth. -->
 
 ---
 
+## 01 / About
+
+I am a student developer exploring software engineering, AI agents, scientific computing and creative interfaces. I build to understand the system behind the interface, and prefer evidence over inflated claims.
+
+**B.Tech CSE (Data Science)** · Acropolis Institute of Technology and Research
+
+**BS Data Science & Applications** · IIT Madras, Foundation level
+
+[LinkedIn](https://www.linkedin.com/in/taher-saifee/) · [Repositories](https://github.com/EthicalMaster?tab=repositories) · [Portfolio](https://tsportfolio-sandy.vercel.app/)
+
+## 02 / Selected work
+
 <div align="center">
-<sub>ETHICALMASTER / ALWAYS EXPLORING</sub>
+<a href="https://github.com/EthicalMaster/AXIOM-LAB"><img src="assets/project-axiom.svg" width="48%" alt="AXIOM LAB — scientific computing"></a>
+<a href="https://github.com/EthicalMaster/Aven-studypartner"><img src="assets/project-aven.svg" width="48%" alt="AVEN — AI-assisted learning"></a>
+<a href="https://github.com/EthicalMaster/google-adk-workshop-agents"><img src="assets/project-agent.svg" width="48%" alt="Agent Studio — multi-agent workflows"></a>
+<a href="https://github.com/EthicalMaster/Myportfolio"><img src="assets/project-portfolio.svg" width="48%" alt="Interactive portfolio"></a>
 </div>
+
+| Project | Engineering focus | Stage |
+|---|---|---|
+| [AXIOM LAB](https://github.com/EthicalMaster/AXIOM-LAB) | Scientific computing, data provenance, reproducibility | Release candidate |
+| [AVEN](https://github.com/EthicalMaster/Aven-studypartner) | Retrieval, adaptive study and AI gateway | Learning platform |
+| [Benchslip](https://github.com/EthicalMaster/Benchslip) | Audit evidence, verification and corrective feedback | Portable tool |
+| [SPECTR Workspace](https://github.com/EthicalMaster/SPECTR-Workspace) | Owner-configurable personal workspace | v1.32.0 source |
+| [Foliovera](https://github.com/EthicalMaster/FOLIOVERA) | Evidence-backed career intelligence | Single-owner MVP |
+| [Agent Studio](https://github.com/EthicalMaster/google-adk-workshop-agents) | Google ADK and multi-agent planning | Workshop demo |
+| [MOKI](https://github.com/EthicalMaster/Moki-personal_AI_staff) | Human-approved schedule adjustment | Team scaffold |
+| [Myportfolio](https://github.com/EthicalMaster/Myportfolio) | Motion, creative coding and CMS | Interactive portfolio |
+| [Sarra Studio](https://github.com/EthicalMaster/Sarraportfolio) | Editorial architecture portfolio | Web project |
+
+## 03 / Toolkit
+
+| Area | Technologies I use or explore |
+|---|---|
+| Software | Python, JavaScript, TypeScript, SQL, C++, Java |
+| Web | FastAPI, React, Express, HTML/CSS, Canvas |
+| AI and data | Google ADK, LLM APIs, retrieval, statistics, data analysis |
+| Engineering | Git, Docker, tests, SQLite, PostgreSQL, Supabase |
+
+## 04 / Build loop
+
+<img src="assets/build-loop.svg" alt="Explore, design, build, verify — repeat" width="100%">
+
+```mermaid
+flowchart LR
+  A[Understand] --> B[Design]
+  B --> C[Build]
+  C --> D[Verify]
+  D --> E[Document]
+  E --> A
+```
+
+## 05 / Contribution landscape
+
+<img src="assets/contributions.svg" alt="Contribution landscape generated from GitHub's visible contribution calendar" width="100%">
+
+The existing [contribution workflow](.github/workflows/paradox-contributions.yml) refreshes this artwork weekly or manually. Its token-visible data may differ from the native GitHub calendar; the native graph remains authoritative. [Static artwork edition](STATIC.md).
+
+## 06 / Activity
+
+[Public repository index](https://github.com/EthicalMaster?tab=repositories) · [Profile contributions](https://github.com/EthicalMaster#js-contribution-activity)
+
+<details>
+<summary>Previous README and documentation provenance</summary>
+
+[Original README at the reviewed revision](https://github.com/EthicalMaster/EthicalMaster/blob/f63c72273a2282f92e95d96acd954a10546cec19/README.md). The previous file remains in Git history, including detailed historical commands and release notes. This overview reflects the inspected default branch, not unpublished local work.
+
+</details>
+
+---
+
+<div align="center"><sub>ETHICALMASTER · DOCUMENTATION SERIES / 01</sub></div>
